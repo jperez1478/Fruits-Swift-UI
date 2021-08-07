@@ -54,8 +54,8 @@
 		8ECDE5AA26BD0F3800D9FE3E /* Fruits */ = {
 			isa = PBXGroup;
 			children = (
-				8ECDE5BD26BE2DBB00D9FE3E /* View */,
 				8ECDE5AF26BD0F3A00D9FE3E /* Assets.xcassets */,
+				8ECDE5BA26BE2D9C00D9FE3E /* FruitCardView.swift */,
 				8ECDE5BC26BE2DA200D9FE3E /* App */,
 				8ECDE5AB26BD0F3800D9FE3E /* FruitsApp.swift */,
 				8ECDE5AD26BD0F3800D9FE3E /* ContentView.swift */,
@@ -78,14 +78,6 @@
 			children = (
 			);
 			path = App;
-			sourceTree = "<group>";
-		};
-		8ECDE5BD26BE2DBB00D9FE3E /* View */ = {
-			isa = PBXGroup;
-			children = (
-				8ECDE5BA26BE2D9C00D9FE3E /* FruitCardView.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
