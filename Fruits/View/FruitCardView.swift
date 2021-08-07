@@ -4,7 +4,7 @@
 //
 //  Created by Jessica Perez on 8/6/21.
 //
-
+//fruit cardview
 import SwiftUI
 
 struct FruitCardView: View {
@@ -29,6 +29,7 @@ struct FruitCardView: View {
                 //Button: Start
             }//: end of vstack
         }//: end of zstack
+        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0,maxHeight: .infinity, alignment: .center)
         .background(LinearGradient(gradient: Gradient(colors:
                                     [Color("ColorBlueberryLightr"),
                                     Color("ColorBlueberryDark")]), startPoint: .top, endPoint: .bottom))
